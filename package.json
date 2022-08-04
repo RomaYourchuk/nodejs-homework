@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "husky": "^8.0.1",
+    "nanoid": "^3.3.4",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomaYourchuk/nodejs-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomaYourchuk/nodejs-homework/issues"
+  },
+  "homepage": "https://github.com/RomaYourchuk/nodejs-homework#readme"
+}
